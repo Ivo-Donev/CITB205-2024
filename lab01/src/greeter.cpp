@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-#include "greeter.h"
+#include "../headers/greeter.h"
 
 void Greeter::sayHello(Asker asker)
 {
