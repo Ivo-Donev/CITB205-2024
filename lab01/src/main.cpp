@@ -1,5 +1,5 @@
-#include "greeter.h"
-#include "asker.h"
+#include "../headers/greeter.h"
+#include "../headers/asker.h"
 
 int main() {
     Asker asker;

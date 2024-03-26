@@ -1,6 +1,6 @@
 #include "../headers/asker.h"
 
-string Asker::ask(string question)
+string Asker::ask()
 {
     std::cout << question << std::endl;
     string answer;

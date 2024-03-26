@@ -3,8 +3,10 @@
 
 #include "../headers/greeter.h"
 
-void Greeter::sayHello(Asker asker)
+Greeter::Greeter(Asker a) : asker(a) {}
+
+void Greeter::sayHello()
 {
-    string name = asker.ask("What is thy name?");
+    string name = asker.ask();
     std::cout << "Greetings, " << name << "!" << std::endl;
 }
